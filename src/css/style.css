@@ -5,3 +5,82 @@
   max-width: 100%;
   font-family: "Arial GEO";
 }
+
+.header {
+  max-width: 1920px;
+  height: 308px;
+  background-color: blue;
+  max-width: 100%;
+  padding-top: 70px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+.h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.dots {
+  border-radius: 50%;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  opacity: 50%;
+  margin: 10px;
+  float: right;
+}
+.lastdots {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  opacity: 100%;
+  margin: 10px;
+  float: right;
+}
+.main {
+  margin-top: -120px;
+}
+
+.images {
+  padding: 20px;
+  display: flex;
+}
+.text {
+  font-size: 18px;
+  text-align: center;
+  height: 125px;
+  width: 443px;
+  position: absolute;
+  border-radius: 12px;
+  padding: 30px 74px 30px 30px;
+  bottom: 15px;
+  left: 10px;
+  background-color: white;
+}
+.secondtext {
+  position: absolute;
+  text-align: center;
+  padding: 30px 74px 30px 30px;
+  bottom: 15px;
+  left: 10px;
+  border-radius: 19px;
+  font-size: 18px;
+  backdrop-filter: blur(10px);
+  font-weight: bold;
+  height: 125px;
+  width: 443px;
+}
+.picture {
+  width: 463px;
+  height: 420px;
+  width: 100%;
+}
+.article {
+  position: relative;
+}
+.box {
+  margin-top: -50px;
+}
